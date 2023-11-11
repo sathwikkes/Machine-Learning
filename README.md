@@ -25,3 +25,16 @@ This project harnesses Python to analyze a 13-year dataset of the NIFTY-50 stock
 ##### Creating a Chatbot with Deep Learning
 
 This project focuses on building a chatbot using deep learning techniques. The chatbot is trained on a dataset containing categories (intents), patterns, and responses. It utilizes a specialized recurrent neural network (LSTM) to categorize user messages and selects responses from a predefined list.
+
+
+##### Enhancing Pedestrian Detection with Advanced Histograms of Oriented Gradients (HOG) in Computer Vision
+
+Pedestrian detection stands at the core of computer vision, serving as a foundational element in visual understanding.
+
+To delve into the workings of a Histogram of Oriented Gradients (HOG), it's essential to grasp the concepts of gradients and histograms.
+
+In the realm of black and white imagery, the gradient quantifies the rate and direction of intensity change. Think of grayscale levels as analogous to elevation in a monochromatic landscape. A robust gradient, perpendicular to an image edge (a transition from black to white or vice versa), signifies a pronounced change in intensity perpendicular to the edge.
+
+The system computes gradients for each pixel, and these gradients populate a histogram: the angle becomes the histogram value, and the magnitude becomes its weight. To discern whether cells within the present detection window correspond to a human presence, the system amalgamates the histograms of all cells and submits them to a machine learning discriminator.
+
+It's crucial to note that this technique is tailored for detecting fully visible pedestrians in an upright position. Consequently, its efficacy may be limited in diverse scenarios.
