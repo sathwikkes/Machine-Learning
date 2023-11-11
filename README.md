@@ -27,6 +27,7 @@ This project harnesses Python to analyze a 13-year dataset of the NIFTY-50 stock
 This project focuses on building a chatbot using deep learning techniques. The chatbot is trained on a dataset containing categories (intents), patterns, and responses. It utilizes a specialized recurrent neural network (LSTM) to categorize user messages and selects responses from a predefined list.
 
 
+
 ##### Enhancing Pedestrian Detection with Advanced Histograms of Oriented Gradients (HOG) in Computer Vision
 
 Pedestrian detection stands at the core of computer vision, serving as a foundational element in visual understanding.
@@ -38,3 +39,11 @@ In the realm of black and white imagery, the gradient quantifies the rate and di
 The system computes gradients for each pixel, and these gradients populate a histogram: the angle becomes the histogram value, and the magnitude becomes its weight. To discern whether cells within the present detection window correspond to a human presence, the system amalgamates the histograms of all cells and submits them to a machine learning discriminator.
 
 It's crucial to note that this technique is tailored for detecting fully visible pedestrians in an upright position. Consequently, its efficacy may be limited in diverse scenarios.
+
+##### Handwritten Digit Recognition with PyTorch  
+The given image exemplifies the challenge computers face when tasked with recognizing blurred images, a task humans excel at thanks to their intricate cognitive capabilities. While recognizing the digit "6" in this instance may be straightforward for us, this is a complex undertaking for machines.
+
+Deep learning, a subset of machine learning, offers a solution inspired by the human brain's learning mechanism - learning through exposure to examples. Deep learning leverages neural networks composed of interconnected "neurons," mirroring the structure and functionality of human brain neurons. Training such neural networks involves extensive data and intricate algorithms.
+
+This project embarks on implementing a deep learning algorithm for handwritten digit recognition, employing PyTorch. The project's dataset is MNIST, encompassing 70,000 handwritten digits distributed into two subsets: a training set comprising 60,000 images and a test set containing 10,000 images. In summary, the project hinges on the complex interplay of deep learning through PyTorch to achieve the recognition of handwritten digits within the MNIST dataset.
+
